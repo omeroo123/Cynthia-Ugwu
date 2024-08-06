@@ -188,22 +188,7 @@
     font-size: 12px;
 }
 
-@media (min-width: 200px) and (max-width: 1000px){
-    #about{
-        justify-content: center;
-        align-items: center;
-        padding: 10vw 5vw;
-        gap: 20px;
-    }
-    #text-about p{
-        font-size: 1.6vw;
-    }
-    #about-pic img{
-        width: 20vw;
-    }
-    
 
-}
 
 
 #subscribe{
@@ -251,3 +236,62 @@
     font-weight: 500;
     font-size: 14px;
 }
+
+@media (min-width: 200px) and (max-width: 1000px){
+   
+    #about{
+        justify-content: center;
+        align-items: center;
+        padding: 10vw 5vw;
+        gap: 20px;
+    }
+    #text-about p{
+        font-size: 1.6vw;
+    }
+    #about-pic img{
+        width: 20vw;
+    }
+    
+
+}
+@media (min-width: 200px) and (max-width: 600px){
+    #hero h1{
+        font-size: 15vw;
+        
+       }
+    #heading .h1-2{
+        margin-left: 100px;
+        margin-right: 30px;
+    }
+    .blocktext h5{
+        font-size: 3vw;
+    }
+    #side-content{
+        margin-top: 160px;
+    }
+    #side-content h5{
+        font-size: 2.5vw ;
+    }
+    #hero-footer{
+        padding: 0 2vw;
+    }
+    #nav{
+        font-size: 4vw;
+    }
+    #subscribe h5{
+        font-size: 4vw;
+    }
+    #footer{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #footer-right{
+        font-size: 4vw;
+        display: inline-block;
+        padding-left: 40px;
+    }
+    #text-about p{
+        font-size: 2vw;
+    }
+   
+    }
